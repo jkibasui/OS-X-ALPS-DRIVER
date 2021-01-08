@@ -67,7 +67,7 @@ bool VoodooPS2TouchPadBase::init(OSDictionary * dict)
 
     // set defaults for configuration items
     
-	/*z_finger=45;
+	z_finger=45;
 	divisorx=divisory=1;
 	ledge=1700;
 	redge=5200;
@@ -196,7 +196,7 @@ bool VoodooPS2TouchPadBase::init(OSDictionary * dict)
     dragexitdelay = 100000000;
     dragTimer = 0;
     
-	touchmode=MODE_NOTOUCH;*/
+	touchmode=MODE_NOTOUCH;
     
 	IOLog("VoodooPS2TouchPad Base Driver loaded...\n");
     

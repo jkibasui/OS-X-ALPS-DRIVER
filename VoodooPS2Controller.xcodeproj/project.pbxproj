@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -444,16 +444,15 @@
 		84167808161B55B2002C60E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = rehabman;
 			};
 			buildConfigurationList = 8416780B161B55B2002C60E6 /* Build configuration list for PBXProject "VoodooPS2Controller" */;
-			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				English,
 			);
 			mainGroup = 84167806161B55B2002C60E6;
 			projectDirPath = "";
@@ -640,21 +639,30 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CURRENT_PROJECT_VERSION = 6.0.0;
+				CURRENT_PROJECT_VERSION = 6.1.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_LOCATION = NO;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -673,7 +681,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LLVM_LTO = YES_THIN;
 				"LLVM_LTO[arch=x86_64]" = YES_THIN;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MODULE_VERSION = 6.0.0;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
@@ -688,16 +696,25 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CURRENT_PROJECT_VERSION = 6.0.0;
+				CURRENT_PROJECT_VERSION = 6.1.0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -714,7 +731,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LLVM_LTO = YES_THIN;
 				"LLVM_LTO[arch=x86_64]" = YES_THIN;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MODULE_VERSION = 6.0.0;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
@@ -726,14 +743,26 @@
 		84167825161B55B2002C60E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
+				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Controller/VoodooPS2Controller-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Controller/VoodooPS2Controller-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Controller;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Controller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -742,14 +771,22 @@
 		84167826161B55B2002C60E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Controller/VoodooPS2Controller-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Controller/VoodooPS2Controller-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Controller;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Controller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -758,15 +795,27 @@
 		84167839161B5613002C60E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
+				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoodooPS2Controller.kext/Contents/PlugIns";
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Keyboard/VoodooPS2Keyboard-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Keyboard/VoodooPS2Keyboard-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Keyboard;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -775,15 +824,23 @@
 		8416783A161B5613002C60E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoodooPS2Controller.kext/Contents/PlugIns";
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Keyboard/VoodooPS2Keyboard-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Keyboard/VoodooPS2Keyboard-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Keyboard;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -792,15 +849,27 @@
 		8416784D161B56A2002C60E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
+				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoodooPS2Controller.kext/Contents/PlugIns";
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Mouse/VoodooPS2Mouse-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Mouse/VoodooPS2Mouse-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Mouse;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Mouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -809,15 +878,23 @@
 		8416784E161B56A2002C60E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoodooPS2Controller.kext/Contents/PlugIns";
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Mouse/VoodooPS2Mouse-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Mouse/VoodooPS2Mouse-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Mouse;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Mouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -826,15 +903,27 @@
 		84167861161B56C4002C60E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_DIVIDE_BY_ZERO = NO;
+				CLANG_ANALYZER_NULL_DEREFERENCE = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoodooPS2Controller.kext/Contents/PlugIns";
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Trackpad/VoodooPS2Trackpad-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Trackpad/VoodooPS2Trackpad-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Trackpad;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Trackpad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -843,15 +932,23 @@
 		84167862161B56C4002C60E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/VoodooPS2Controller.kext/Contents/PlugIns";
+				CURRENT_PROJECT_VERSION = 6.1.0;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2Trackpad/VoodooPS2Trackpad-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2Trackpad/VoodooPS2Trackpad-Info.plist";
+				MARKETING_VERSION = 6.1.0;
 				MODULE_NAME = com.rehabman.driver.VoodooPS2Trackpad;
 				OTHER_CFLAGS = "-fno-stack-protector";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = org.rehabman.voodoo.driver.PS2Trackpad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -860,29 +957,47 @@
 		84C337A11698B693009B8177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		84C337A21698B693009B8177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		84F424F5161B59E500777765 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2synapticsPane/VoodooPS2synapticsPane-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "VoodooPS2synapticsPane/VoodooPS2synapticsPane-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rehabman.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -890,13 +1005,19 @@
 		84F424F6161B59E500777765 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VoodooPS2synapticsPane/VoodooPS2synapticsPane-Prefix.pch";
 				INFOPLIST_FILE = "VoodooPS2synapticsPane/VoodooPS2synapticsPane-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rehabman.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -904,15 +1025,27 @@
 		84F42503161B5A4900777765 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		84F42504161B5A4900777765 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9TPHQCN2V;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
